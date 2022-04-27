@@ -1,0 +1,351 @@
+.header .home {
+  margin: 18px 0 9.5px;
+}
+
+.header {
+  /* background-color: black; */
+}
+
+/*===================================================================================================
+===========================                 HERO SMALL                  =============================
+===================================================================================================*/
+
+main .hero--section__small {
+  background-image: none;
+  padding: 0;
+}
+
+main iframe {
+  width: 100%;
+  height: 550px;
+}
+
+/*======================================  End of HERO SMALL  =======================================*/
+
+/*===================================================================================================
+============================                  CONTACT US                 ============================
+===================================================================================================*/
+
+.contact-us {
+  background: radial-gradient(176.75% 218.43% at -64.86% -138.33%, #095AA6 0%, #09101B 100%);
+  padding: 7.5% 30px;
+}
+
+.contact-us > div {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.contact-us > div > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+.contact-us h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+main .contact-us > div .underline {
+  margin-top: 0;
+}
+
+.contact-info-container {
+  width: 430px;
+  margin-top: 25px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.contact-info img {
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.contact-info p {
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.contact-info-container .info-image {
+  border-radius: 10px;
+  margin-top: 70px;
+  width: 425px;
+}
+
+.contact-info-container .info-image img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.contact-form {
+  max-width: 610px;
+  margin-left: 10%;
+}
+
+.contact-form form input, 
+select,
+textarea {
+  width: 100%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.contact-form form input,
+.contact-form select,
+.contact-form textarea {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+color: rgba(255, 255, 255, 0.5);
+opacity: 1;
+background-color: transparent;
+border: none;
+padding: 20px 0;
+margin-bottom: 10px;
+border-bottom: 1px solid rgba(192, 192, 192, 0.3);
+}
+
+.contact-form form input:hover,
+.contact-form select:hover,
+.contact-form textarea:hover,
+.contact-form form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}  
+
+.contact-form form .state {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;       /* Remove default arrow */
+  /* background-image: url(...);  */
+  background: #09101B;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-form button {
+  border: none;
+  margin-top: 80px;
+  font-size: 16px;
+}
+
+/*======================================  End of CONTACT US  ======================================*/
+
+/*==================================================================================================
+============================                 MEDIA QUERY                 ===========================
+==================================================================================================*/
+
+@media(max-width: 1024px) {
+
+  /*=============================================
+  =                   CONTACT                   =
+  =============================================*/
+  
+  .contact-us > div > div {
+    flex-direction: column;
+  }
+
+  .contact-info-container {
+    width: 100%;
+  }
+
+  .contact-info p {
+    font-size: 22px;
+  }
+
+  .contact-form {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+
+  .contact-form form input,
+  .contact-form select,
+  .contact-form textarea {
+    font-size: 20px;
+  }
+  
+  /*============  End of CONTACT  =============*/
+
+}
+
+@media(max-width: 768px) {
+
+  /*=============================================
+  =                 HERO SMALL                 =
+  =============================================*/
+  
+  main .hero--section__small {
+    padding: 0;
+  }
+  
+  /*==========  End of HERO SMALL  ===========*/
+
+  /*=============================================
+  =                   CONTACT                   =
+  =============================================*/
+
+  .contact-us {
+    padding-bottom: 12%;
+  }
+
+  .contact-us h2 {
+    font-size: 40px;
+  }
+
+  .contact-info p {
+    font-size: 20px;
+  }
+
+  .contact-form {
+    max-width: 90%;
+  }
+
+  .contact-form form input,
+  .contact-form select,
+  .contact-form textarea {
+    font-size: 18px;
+  }
+  
+  /*============  End of CONTACT  =============*/
+
+}
+
+@media(max-width: 600px) {
+
+  .header .home {
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+
+  /*=============================================
+  =                 HERO SMALL                 =
+  =============================================*/
+  
+  main iframe {
+    height: 400px;
+  }
+  
+  /*==========  End of HERO SMALL  ===========*/
+
+  /*=============================================
+  =                   CONTACT                   =
+  =============================================*/
+
+  .contact-us {
+    padding-bottom: 14%;
+  }
+
+  .contact-us > div > div {
+    margin-top: 40px;
+  }
+
+  .contact-us h2 {
+    font-size: 36px;
+  }
+
+  .contact-info p {
+    font-size: 18px;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .contact-form form input,
+  .contact-form select,
+  .contact-form textarea {
+    font-size: 16px;
+    padding-bottom: 12px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+  }
+  
+  /*============  End of CONTACT  =============*/
+}
+
+@media(max-width: 480px) {
+
+  .header .home {
+    margin-bottom: 0px;
+    margin-top: 22px;
+  }
+
+  /*=============================================
+  =                 HERO SMALL                 =
+  =============================================*/
+  
+  
+  /*==========  End of HERO SMALL  ===========*/
+
+  /*=============================================
+  =                   CONTACT                   =
+  =============================================*/
+
+  .contact-us {
+    padding: 9% 25px;
+    padding-bottom: 100px;
+  }
+
+  .contact-us h2 {
+    font-size: 32px;
+  }
+
+  .contact-us > div > div {
+    margin-top: 35px;
+  }
+
+  .contact-info {
+    margin-bottom: 30px;
+  }
+
+  .contact-info-container .info-image {
+    margin-top: 50px;
+    width: auto;
+  }
+
+  .contact-info p {
+    font-size: 20px;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .contact-form button {
+    margin-top: 60px;
+  }
+  
+  /*============  End of CONTACT  =============*/
+}
+
+/*=====================================  End of MEDIA QUERY  =====================================*/

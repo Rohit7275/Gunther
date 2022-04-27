@@ -1,0 +1,732 @@
+.header .home {
+   margin: 18px 0 9.5px;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ---------------------------------------TWO COLUMN REVERSE-------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+main .two-column__reverse {
+   padding: 185px 0 140px;
+}
+
+main .two-column__reverse .two--column__right {
+   width: 750px;
+}
+
+main .two-column__reverse .two--column__right--image {
+   margin-left: 0;
+   width: 100%;
+}
+
+main .two-column__reverse .two-column__left {
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-left: auto;
+}
+
+.two-column__reverse .left--content p {
+   margin: 0;
+   line-height: 30px;
+}
+
+.two-column__reverse .left--content img {
+   margin-top: 5px;
+}
+
+.two-column__reverse  .left--content div {
+   max-width: 385px;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ------------------------------------------STOCKED ITEMS---------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+.stocked-items {
+   background-image: linear-gradient(180deg, rgba(9, 16, 27, 0.7), rgba(9, 16, 27, 0.7)), url("precision images/MaskGroup2.jpg");
+   background-repeat: no-repeat;
+   padding: 100px 0;
+   background-size: cover;
+   margin-left: auto;
+   margin-bottom: -5px;
+}
+
+.stocked-items > div:nth-child(1) {
+   padding: 0 30px;
+   margin: 0 auto 0 auto;
+   max-width: 1240px;
+}
+
+.itemsNav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 25px;
+}
+
+.itemsNav p {
+   font-size: 24px;
+   line-height: 36px;
+   max-width: 720px;
+}
+
+.itemsNav div {
+   flex-shrink: 0;
+   margin-left: 50px;
+}
+
+.stocked-items h2 {
+   font-size: 48px;
+   line-height: 60px;
+   font-family: Montserrat;
+   margin: 15px 0 40px;
+}
+
+.stocked-items span {
+   font-family: Montserrat;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   color: #70B6F9;
+}
+
+.itemsNav svg {
+   margin: 0 5px;
+}
+
+.item-slide {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 25px 0;
+   background: linear-gradient(180deg, #354866 16.06%, #0D1D34 104.86%);
+   border-radius: 10px;
+   max-width: 300px;
+   margin-left: 20px;
+}
+
+.item-img {
+   height: 250px;
+   width: 300px;
+   margin-top: 40px;
+}
+
+.item-img img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.item-detail {
+   display: flex;
+   flex-direction: column;
+   padding: 0 25px;
+}
+
+.item-detail span {
+   font-family: Montserrat;
+   font-weight: 600;
+   font-size: 24px;
+   margin: 15px 0;
+   color: #FFFFFF;
+}
+
+.item-detail a {
+   display: flex;
+   align-items: center;
+}
+
+.item-detail a img {
+   margin-left: 10px;
+}
+
+.items--slider {
+   margin-left: auto;
+   margin-top: 50px;
+}
+
+.items--slider > div {
+   margin-left: 6%;
+   overflow: hidden;
+}
+
+.item--slider__flex {
+   display: flex;
+   position: relative;
+   left: 0px;
+   transition: left 0.5s ease;
+}
+
+#previousSlide,
+#nextSlide {
+   cursor: pointer;
+}
+
+/*=========================================================================================================
+=========================                     machining capabilities             ==========================
+==========================================================================================================*/
+
+.machining-capabilities {
+   background: radial-gradient(176.75% 218.43% at -64.86% -138.33%, #095AA6 0%, #09101B 100%);
+   transform: matrix(-1, 0, 0, 1, 0, 0);
+   position: relative;
+   margin-bottom: -25px;
+   padding: 120px 25px 100px;
+}
+
+.capabilities {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1240px;
+}
+
+.machining-capabilities::after {
+   content: '';
+   position: absolute;
+   background-image: url("precision images/Vector.svg");
+   height: 500px;
+   width: 450px;
+   top: 50px;
+   left: 0;
+   transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.machining-capabilities span {
+   font-family: Montserrat;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   color: #70B6F9;
+}
+
+.machining-capabilities h2 {
+   font-family: Montserrat;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 60px;
+   margin-top: 13px;
+}
+
+.machining-capabilities > div {
+   transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.machines__flex {
+   margin-top: 80px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: auto;
+   grid-column-gap: 20px;
+}
+
+.machine img {
+   border-radius: 10px;
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+}
+
+.machine h3 {
+   font-size: 24px;
+   line-height: 36px;
+}
+
+.machineCapabilities {
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto;
+   grid-column-gap: 50px;
+   margin-top: 80px;
+}
+
+.capability {
+   display: flex;
+   max-width: 500px;
+   align-items: center;
+   margin-bottom: 40px;
+}
+
+.capability img {
+   flex-shrink: 0;
+   margin-right: 20px;
+}
+
+.capability p {
+   max-width: 400px;
+   font-size: 24px;
+   line-height: 36px;
+   opacity: 0.7;
+}
+
+
+/*===================================  End of machining capabilities  ====================================*/
+
+/*========================================================================================================
+===============================             RANDOM FACILITIES               ==============================
+=========================================================================================================*/
+
+.random--facilities {
+   background: linear-gradient(180deg, #09101B 0%, #122139 100%);
+   padding: 80px 30px 200px;
+}
+
+.facilities--container {
+   max-width: 1240px;
+   margin: 0 auto;
+}
+
+.facilities__flex {
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto;
+   machining capability0px;
+}
+
+.facility {
+   display: flex;
+   max-width: 500px;
+   align-items: flex-start;
+   margin-bottom: 40px;
+   margin-right: 40px;
+}
+
+.facility img {
+   margin-top: 12px;
+   margin-right: 25px;
+   flex-shrink: 0;
+}
+
+.facility div {
+   max-width: 435px;
+}
+
+.facility h3 {
+   font-size: 24px;
+   line-height: 36px;
+   margin-top: 0px;
+   margin-bottom: 16px;
+}
+
+.facility p {
+   line-height: 30px;
+   opacity: 0.7;
+}
+
+.random--facilities .button__blue {
+   margin: 80px auto 0;
+}
+
+/*====================================  End of RANDOM FACILITIES  =======================================*/
+
+/*=========================================================================================================
+=============================                   MEDIA QUERY                   =============================
+=========================================================================================================*/
+
+@media(max-width: 1200px)
+{
+
+   /* stocked items
+   ---------------------------------------------- */
+
+   .items--slider > div {
+      margin-left: 0;
+   }
+   
+   /* End of stocked items
+   ----------------------------------------------------*/
+
+}
+
+@media(max-width: 1024px)
+{
+
+   /* two column reverse
+   ---------------------------------------------*/
+
+   main .two-column__reverse {
+      padding: 140px 0 100px;
+   }
+
+   .two-column__reverse .left--content {
+      max-width: 100%;
+      width: 370px;
+   }
+   
+   /* End of two column reverse
+   -------------------------------------------------- */
+
+   /* machining capability
+   ---------------------------------------------*/
+
+   .capability img {
+      height: 40px;
+      width: 40px;
+   }
+
+   .capability p {
+      font-size: 20px;
+   }
+   
+   /* End of machining capability
+   -------------------------------------------------- */
+
+   /* random facilities
+   ---------------------------------------------*/
+
+   .random--facilities {
+      padding: 50px 30px 13%;
+   }
+
+   .facilities__flex {
+      grid-template-columns: auto;
+   }
+   
+   .facility {
+      margin-right: 0;
+   }
+
+   .random--facilities .button__blue {
+      margin-top: 8.5%;
+   }
+
+   /* End of random facilities
+   -------------------------------------------------- */
+
+}
+
+@media(max-width: 768px)
+{
+
+   /* two column reverse
+   ---------------------------------------------- */
+
+   .two-column__reverse .left--content {
+      width: 100%;
+   }
+
+   .two-column__reverse .left--content div {
+      max-width: 100%;
+   }
+
+   main .two-column__reverse {
+      padding-bottom: 70px;
+   }
+
+   main .two-column__reverse .left--content--container {
+      margin-bottom: 40px;
+   }
+   
+   /* End of two column reverse
+   ---------------------------------------------------*/
+
+   /* stocked items
+   ---------------------------------------------- */
+
+   .stocked-items h2 {
+      font-size: 35px;
+      margin-bottom: 30px;
+   }
+
+   .itemsNav {
+      flex-wrap: wrap;
+   }
+
+   .itemsNav div {
+      margin-left: auto;
+   }
+   
+   /* End of stocked items
+   ----------------------------------------------------*/
+
+   /* machine capabilities
+   ---------------------------------------------- */
+
+   .machining-capabilities {
+      padding-bottom: 80px;
+   }
+
+   .machining-capabilities h2 {
+      font-size: 35px;
+      margin-bottom: 30px;
+   }
+
+   .capability {
+      max-width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .machines__flex {
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 30px;
+   }
+
+   .capability p {
+      max-width: 100%;
+   }
+
+   .machineCapabilities {
+      margin-top: 60px;
+      grid-template-columns: auto;
+   }
+   
+   /* End of machine capabilities
+   ---------------------------------------------------*/
+
+   /* random facilities
+   ---------------------------------------------- */
+
+   .random--facilities {
+      padding: 51px 30px 100px;
+   }
+
+   .random--facilities .button__blue {
+      margin-top: 45px;
+   }
+   
+   /* End of random facilities
+   ---------------------------------------------------*/
+
+}
+
+@media(max-width: 600px) {
+
+   main .button__blue {
+      padding: 20px 40px 20px 40px;
+   }
+
+   .header .home {
+      margin-bottom: 0px;
+      margin-top: 15px;
+   }
+
+   /* two column reverse
+   -----------------s----------------------------- */
+
+   main .two-column__reverse {
+      padding: 100px 0 50px;
+   }
+
+   main .two-column__reverse .two--column__right {
+      margin-bottom: 0;
+   }
+
+   main .two-column__reverse .two-column__left h2 {
+      font-size: 35px;
+   }
+
+   main .two-column__left {
+      margin-bottom: 85px;
+   }
+
+   main .two-column__reverse .two-column__left {
+      margin-bottom: 30px;
+   }
+   
+   /* End of two column reverse
+   ----------------------------------------------------*/
+
+   /* stocked items
+   ---------------------------------------------- */
+
+   .stocked-items {
+      padding-top: 80px;
+   }
+
+   .stocked-items h2 {
+      margin-top: 5px;
+   }
+
+   .itemsNav p {
+      font-size: 20px;
+   }
+   
+   /* End of stocked items
+   ----------------------------------------------------*/
+
+   /* machine capabilities
+   ---------------------------------------------- */
+
+   .machining-capabilities {
+      padding-top: 80px;
+      padding-bottom: 50px;
+   }
+
+   .machining-capabilities h2 {
+      margin-top: 5px;
+   }
+
+   .machines__flex {
+      margin-top: 14%;
+      grid-template-columns: auto;
+   }
+
+   .machineCapabilities {
+      margin-top: 25px;
+   }
+
+   .capability p {
+      font-size: 18px;
+   }
+   
+   /* End of machine capabilities
+   ---------------------------------------------------*/
+
+   /* random facilities
+   ---------------------------------------------- */
+
+   .random--facilities .button__blue {
+      margin-top: 25px;
+   }
+   
+   /* End of random facilities
+   ---------------------------------------------------*/
+
+   /*=============================================
+   =                 TWO COLUMN                  =
+   =============================================*/
+   
+   main .two-column {
+      padding-top: 100px;
+   }
+   
+   /*==========  End of TWO COLUMN  ============*/
+
+}
+
+@media(max-width: 480px) {
+
+   .header .home {
+      margin-bottom: 0px;
+      margin-top: 22px;
+   }
+
+
+   /* two column reverse
+   -----------------s----------------------------- */
+
+   main .two-column__reverse {
+      padding-top: 80px;
+      padding-bottom: 40spx;
+   }
+
+   main .two-column__reverse .two-column__left > span {
+      font-size: 20px;
+      margin-bottom: 10px;
+   }
+
+   main .two-column__reverse .two-column__left h2 {
+      font-size: 30px;
+   }
+
+   .two-column__reverse .left--content div {
+      margin-left: 20px;
+   }
+
+   main .two-column__reverse .left--content--container {
+      margin-bottom: 30px;
+   }
+   
+   /* End of two column reverse
+   ----------------------------------------------------*/
+
+   /* stocked items
+   ---------------------------------------------- */
+
+   .stocked-items {
+      padding-top: 60px;
+   }
+
+   .stocked-items h2 {
+      margin-top: 0;
+   }
+
+   .itemsNav p {
+      font-size: 16px;
+   }
+   
+   .itemsNav svg {
+      height: 50px;
+      width: 50px;
+   }
+
+   .item-img {
+      height: 200px;
+      width: 250px;
+      margin-top: 20px;
+   }
+
+   .itemsNav div {
+      margin-top: 10px;
+   }
+
+   .items--slider {
+      margin-top: 40px;
+   }
+
+   .stocked-items {
+      padding-bottom: 75px;
+   }
+
+   /* End of stocked items
+   ----------------------------------------------------*/
+
+   /* machine capabilities
+   ---------------------------------------------- */
+
+   .machining-capabilities {
+      padding-top: 70px;
+   }
+
+   .machining-capabilities h2 {
+      margin-top: 5px;
+      font-size: 30px;
+      line-height: 50px;
+   }
+
+   .machines__flex {
+      margin-top: 20%;
+   }
+
+   .machining-capabilities span {
+      font-size: 20px;
+   }
+
+   .machine h3 {
+      font-size: 22px;
+      line-height: 30px;
+   }
+
+   .capability {
+      margin: 0;
+   }
+
+   .capability p {
+      font-size: 18px;
+   }
+   
+   /* End of machine capabilities
+   ---------------------------------------------------*/
+
+   /* random facilities
+   ---------------------------------------------- */
+
+   .random--facilities {
+      padding-top: 20px;
+   }
+
+   .facility h3 {
+      font-size: 20px;
+      line-height: 32px;
+   }
+
+   .facility {
+      margin-bottom: 20px;
+   }
+
+   .random--facilities {
+      padding-bottom: 75px;
+   }
+   
+   /* End of random facilities
+   ---------------------------------------------------*/
+}
+
+/*========================================  End of MEDIA QUERY  =========================================*/

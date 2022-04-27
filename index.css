@@ -1,0 +1,714 @@
+/* ----------------------------------------------------------------------------------------------- */
+/* -------------------------------------------HERO SECTION---------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+.hero--section {
+   background-image: url("images/heroSec.jpg");
+   background-size: cover;
+   position: relative;
+   color: white;
+   padding-top: 100px;
+   padding-bottom: 75px;
+}
+
+.upper-gradient {
+   width: 100%;
+   height: 300px;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0.86) 0%, rgba(9, 16, 27, 0) 94.44%);
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 0;
+}
+
+.lower-gradient {
+   width: 100%;
+   height: 400px;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(9, 16, 27, 0) 94.44%);
+   transform: matrix(1, 0, 0, -1, 0, 0);
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   z-index: 0;
+}
+
+.hero--bottom {
+   position: relative;
+}
+
+.title {
+   width: 100%;
+   max-width: 38%;
+   margin: 0 4% 0 auto;
+   padding-top: 30px;
+   padding-left: 30px;
+}
+
+h1 {
+   font-size: 90px;
+   margin: 10px 0px;
+   padding: 0 20px;
+   line-height: 102px;
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+   text-shadow: 0px 4px 90px #000000;
+}
+
+.hero--bottom {
+   display: flex;
+   margin: 140px auto 90px auto;
+}
+
+.hero--bottom p {
+   margin: 10px 20px;
+   font-size: 20px;
+   font-weight: 500;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.service--slider {
+   max-width: 54%;
+}
+
+.service__overflow {
+   overflow-x: hidden;
+}
+
+.service__overflow.grab {
+   cursor: grab;
+}
+
+.service--slider__flex {
+   display: flex;
+   position: relative;
+   left: 0;
+   transition: all 0.8s ease;
+   width: max-content;
+}
+
+.service {
+   position: relative;
+   margin: 50px 12.5px 50px;
+   box-shadow: 0px 15px 7px rgba(0, 0, 0, 0.2);
+   height: 340px;
+   width: 225px;
+   flex-shrink: 0;
+   transition: all 0.8s ease;
+}
+
+.service.active {
+   transform: scale(1.34, 1.30);
+   margin: auto 54px auto;
+   transition: all 0.8s ease;
+}
+
+.service>img {
+   border-radius: 10px;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.service--gradient {
+   position: absolute;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(9, 16, 27, 0) 94.98%);
+   transform: matrix(1, 0, 0, -1, 0, 0);
+   bottom: 0;
+   width: 100%;
+   height: 90%;
+   border-radius: 10px;
+}
+
+.service--about {
+   position: absolute;
+   width: 154px;
+   bottom: 20px;
+   margin-left: 25px;
+}
+
+.service--about a {
+   display: flex;
+}
+
+.service--about img {
+   margin-left: 10px;
+}
+
+.slider--btn {
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 40px;
+}
+
+.slider--btn img {
+   margin: 0 8px;
+   cursor: pointer;
+}
+
+.companies {
+   display: flex;
+   justify-content: space-evenly;
+   margin: 0 auto 0 auto;
+   flex-wrap: wrap;
+   padding: 0 20px;
+}
+
+.companies img {
+   opacity: 0.8;
+   flex-shrink: 0;
+   margin: 20px 30px;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ------------------------------------------OUR SERVICES----------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+.our-services {
+   background-image: linear-gradient(180deg, rgba(9, 16, 27, 0.65), rgba(9, 16, 27, 0.65)), url(images/3371.jpg);
+   padding: 110px 0;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: -5px;
+}
+
+.our-services>div {
+   max-width: 1240px;
+   margin: 0 auto;
+   padding: 0 25px;
+}
+
+.our-services>div>span {
+   color: #70B6F9;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 36px;
+}
+
+.our-services h2 {
+   font-size: 48px;
+   line-height: 60px;
+   font-weight: bold;
+   max-width: 800px;
+   margin-top: 12px;
+}
+
+.underline {
+   width: 50px;
+   height: 2px;
+   background-color: #70B6F9;
+}
+
+.our-services--grid {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows: auto;
+   grid-row-gap: 70px;
+   grid-column-gap: 6.5%;
+   margin: 80px 0 20px;
+   transition: all 0.5s ease;
+}
+
+.services {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.services h3 {
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 36px;
+   margin: 10px 0 20px;
+}
+
+.services p {
+   font-size: 14px;
+   line-height: 24px;
+   opacity: 0.8;
+   margin: 5px 0;
+}
+
+.our-service--dropdown {
+   display: none;
+   padding: 33px 30px;
+   background-color: rgba(9, 90, 166, 0.5);
+   transition: all 0.3s ease;
+   border-radius: 50%;
+}
+
+.our-service--dropdown:hover {
+   padding: 37px 30px 29px;
+   background-color: rgb(9, 90, 166);
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* -------------------------------------------INDUSTRIES------------------------------------------ */
+/* ----------------------------------------------------------------------------------------------- */
+.industries {
+   background: #122035;
+   padding: 130px 0;
+}
+
+.industries--content {
+   max-width: 1240px;
+   margin: 0 auto;
+   padding: 0 25px;
+}
+
+.industries--content span {
+   font-family: Montserrat;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   color: #70B6F9;
+   display: block;
+}
+
+.industries--content h2 {
+   font-family: Montserrat;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 60px;
+   margin-top: 10px;
+   margin-bottom: 60px;
+}
+
+.industries--grid {
+   display: grid;
+   grid-auto-rows: auto;
+   grid-template-columns: auto auto auto auto;
+   grid-row-gap: 60px;
+   grid-column-gap: 8%;
+   margin-top: 100px;
+}
+
+.industries--service {
+   display: flex;
+   align-items: center;
+}
+
+.industries--service img {
+   flex-shrink: 0;
+   margin-right: 15px;
+}
+
+.industries--dropdown {
+   display: none;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* -----------------------------------------MEDIA QUERY------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media(max-width: 1200px) {
+
+   /*--------------------------------------------------------*/
+   /*-----------------------HERO SECTION---------------------*/
+   /*--------------------------------------------------------*/
+
+   .hero--section {
+      padding-top: 150px;
+   }
+
+   .hero--bottom {
+      align-items: center;
+   }
+
+   .title {
+      margin: 0 4% 0 auto;
+      padding-top: 0;
+      padding-bottom: 40px;
+   }
+
+   .title h1 {
+      font-size: 75px;
+      line-height: 90px;
+   }
+
+   .slider--btn {
+      margin-top: 20px;
+   }
+}
+
+@media(max-width: 1024px) {
+
+   /*--------------------------------------------------------*/
+   /*-----------------------HERO SECTION---------------------*/
+   /*--------------------------------------------------------*/
+
+   .hero--section {
+      padding-top: 100px;
+   }
+
+   .hero--bottom {
+      margin-top: 100px;
+   }
+
+   .title {
+      max-width: 50%;
+      padding-bottom: 80px;
+   }
+
+   .service--slider {
+      max-width: 50%;
+   }
+
+   .hero--bottom p {
+      margin: 10px 0;
+      font-size: 18px;
+      padding-left: 4%;
+   }
+
+   .title h1 {
+      font-size: 65px;
+      line-height: 80px;
+      padding-left: 4%;
+   }
+
+   /*--------------------------------------------------------*/
+   /*-----------------------OUR SERVICES---------------------*/
+   /*--------------------------------------------------------*/
+   .our-services>div {
+      padding: 0 40px;
+   }
+
+   .our-services h2 {
+      font-size: 40px;
+   }
+
+   .our-services--grid {
+      grid-template-columns: auto auto auto;
+      height: 360px;
+      overflow-y: hidden;
+   }
+
+   .our-service--dropdown {
+      display: block;
+      margin: 30px auto 0;
+      cursor: pointer;
+   }
+
+   /*--------------------------------------------------------*/
+   /*------------------------INDUSTRIES----------------------*/
+   /*--------------------------------------------------------*/
+   .industries--grid {
+      grid-template-columns: auto auto auto;
+   }
+
+   .industries {
+      padding: 100px 0;
+   }
+}
+
+@media(max-width: 768px) {
+
+   /*--------------------------------------------------------*/
+   /*-----------------------HERO SECTION---------------------*/
+   /*--------------------------------------------------------*/
+   .hero--bottom {
+      flex-direction: column;
+      margin-top: 70px;
+   }
+
+   .title {
+      max-width: none;
+      width: auto;
+      text-align: center;
+      margin: 0 25px;
+      padding: 0;
+      padding-bottom: 50px;
+   }
+
+   .hero--bottom p {
+      padding: 0;
+   }
+
+   .title h1 {
+      font-size: 60px;
+      padding: 0;
+   }
+
+   .service--slider {
+      max-width: 100%;
+   }
+
+   .service.active {
+      margin: auto 75px auto 80px;
+   }
+
+   .service {
+      height: 290px;
+      width: 325px;
+   }
+
+   /*--------------------------------------------------------*/
+   /*-----------------------OUR SERVICES---------------------*/
+   /*--------------------------------------------------------*/
+   .our-services {
+      padding: 90px 0 70px;
+   }
+
+   .our-services h2 {
+      font-size: 35px;
+   }
+
+   .our-services--grid {
+      grid-template-columns: auto auto;
+      margin-top: 65px;
+   }
+
+   .our-service--dropdown {
+      margin-top: 35px;
+   }
+
+   /*--------------------------------------------------------*/
+   /*------------------------INDUSTRIES----------------------*/
+   /*--------------------------------------------------------*/
+   .industries--grid {
+      height: 475px;
+      overflow: hidden;
+      transition: 0.5s ease;
+   }
+
+   .industries--service {
+      flex-direction: column;
+      margin-right: 20px;
+   }
+
+   .industries--service img {
+      margin-right: 0;
+   }
+
+   .industries--dropdown {
+      display: block;
+      padding: 33px 30px;
+      background-color: rgba(9, 90, 166, 0.5);
+      transition: all 0.3s ease;
+      border-radius: 50%;
+      margin: 40px auto 0;
+      cursor: pointer;
+   }
+
+   .industries--dropdown:hover {
+      padding: 37px 30px 29px;
+      background-color: rgb(9, 90, 166);
+   }
+}
+
+@media(max-width: 600px) {
+
+   .home {
+      margin-top: 15px;
+   }
+
+   /*--------------------------------------------------------*/
+   /*-----------------------HERO SECTION---------------------*/
+   /*--------------------------------------------------------*/
+   .hero--section {
+      padding-bottom: 50px;
+   }
+
+   .hero--bottom {
+      margin-top: 55px;
+      margin-bottom: 50px;
+   }
+
+   .title h1 {
+      font-size: 45px;
+   }
+
+   .companies {
+      justify-content: space-evenly;
+   }
+
+   .hero--bottom {
+      margin-bottom: 40px;
+   }
+
+   .hero--bottom p {
+      font-size: 16px;
+      font-weight: normal;
+   }
+
+   .title h1 {
+      font-size: 40px;
+      line-height: 60px;
+   }
+
+   .service.active {
+      margin: auto 60px auto 70px;
+   }
+
+   .service {
+      height: 290px;
+      width: 250px;
+   }
+
+   .companies img {
+      width: 120px;
+   }
+
+   /*--------------------------------------------------------*/
+   /*-----------------------OUR SERVICES---------------------*/
+   /*--------------------------------------------------------*/
+   .our-services {
+      padding: 70px 0 50px;
+   }
+
+   .our-services>div {
+      padding: 0 30px;
+   }
+
+   .our-services h2 {
+      font-size: 30px;
+   }
+
+   .services h3 {
+      font-size: 25px;
+   }
+
+   /*--------------------------------------------------------*/
+   /*------------------------INDUSTRIES----------------------*/
+   /*--------------------------------------------------------*/
+   .industries {
+      padding: 80px 0;
+   }
+
+   .industries--content span {
+      font-size: 22px;
+   }
+
+   .industries--content h2 {
+      font-size: 40px;
+      margin-bottom: 50px;
+   }
+
+   .industries--grid {
+      grid-row-gap: 50px;
+      margin-top: 75px;
+   }
+
+   .industries--dropdown {
+      margin-top: 30px;
+   }
+}
+
+@media(max-width: 480px) {
+
+   .home {
+      margin-top: 22px;
+   }
+
+   /*--------------------------------------------------------*/
+   /*-----------------------HERO SECTION---------------------*/
+   /*--------------------------------------------------------*/
+   .hero--section {
+      padding-bottom: 40px;
+   }
+
+   .title {
+      padding-bottom: 35px;
+      margin: 0 20px;
+   }
+
+   .title h1 {
+      font-size: 33px;
+      line-height: 50px;
+      margin: 15px 0;
+      padding: 0 12px;
+   }
+
+   .companies img {
+      width: 100px;
+      margin: 15px;
+   }
+
+   .slider--btn {
+      margin-right: 20px;
+      margin-top: 15px;
+   }
+
+   .service {
+      height: 275px;
+      width: 220px;
+   }
+
+   .service.active {
+      margin: auto 45px auto 50px;
+      transform: scale(1.25, 1.25);
+   }
+
+   .slider--btn img {
+      margin: 0 5px;
+   }
+
+   /*--------------------------------------------------------*/
+   /*-----------------------OUR SERVICES---------------------*/
+   /*--------------------------------------------------------*/
+   .our-services>div {
+      padding: 0 25px;
+   }
+
+   .our-services h2 {
+      font-size: 24px;
+      line-height: 40px;
+   }
+
+   .our-services--grid {
+      grid-template-columns: auto;
+      margin-top: 40px;
+      grid-row-gap: 20px;
+      height: 410px;
+   }
+
+   .services {
+      max-width: 300px;
+      margin: 0 auto;
+   }
+
+   .services h3 {
+      font-size: 23px;
+      margin-bottom: 15px;
+   }
+
+   .our-service--dropdown {
+      margin-top: 25px;
+      padding: 28px 25px;
+   }
+
+   .our-service--dropdown:hover {
+      padding: 31px 25px 25px;
+   }
+
+   /*--------------------------------------------------------*/
+   /*------------------------INDUSTRIES----------------------*/
+   /*--------------------------------------------------------*/
+   .industries {
+      padding: 60px 0;
+   }
+
+   .industries--content h2 {
+      font-size: 30px;
+      margin-bottom: 35px;
+      line-height: 45px;
+   }
+
+   .industries--grid {
+      margin-top: 60px;
+      grid-template-columns: auto auto;
+      height: 280px;
+   }
+
+   .industries--service {
+      text-align: center;
+      margin-right: 0;
+   }
+
+   .industries--dropdown {
+      padding: 28px 25px;
+   }
+
+   .industries--dropdown:hover {
+      padding: 31px 25px 25px;
+   }
+}

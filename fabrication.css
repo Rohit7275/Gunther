@@ -1,0 +1,661 @@
+.header .home {
+  margin: 18px 0 9.5px;
+}
+
+/*===================================================================================================
+===========================                 HERO SMALL                  =============================
+===================================================================================================*/
+
+main .hero--section__small {
+  background-image: linear-gradient(180deg,rgba(9, 16, 27, 0.3),rgba(9, 16, 27, 0.3)), url("fabrication images/Mask Group.jpg");
+}
+
+main .heroSmall-content {
+  max-width: 42%;
+  align-self: center;
+}
+
+.service {
+  margin: auto 25px auto 0;
+}
+
+.service {
+  position: relative;
+  width: 226px;
+  height: 337px;
+}
+
+.service > img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.service--gradient {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(9, 16, 27, 0) 94.98%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  bottom: 0;
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+}
+
+.service--about {
+  position: absolute;
+  width: 154px;
+  bottom: 20px;
+  margin-left: 25px;
+}
+
+.service--about a {
+  display: flex;
+}
+
+.service--about img {
+  margin-left: 10px;
+}
+
+/*======================================  End of HERO SMALL =======================================*/
+
+/*===================================================================================================
+=============================             TWO COLUMN REVERSE            =============================
+===================================================================================================*/
+
+main .two-column__reverse {
+  padding: 180px 0 90px;
+}
+
+main .two-column__reverse .two--column__right {
+  width: 600px;
+}
+
+.two-column__reverse .left--content p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.two-column__reverse .left--content img {
+  margin-top: 5px;
+}
+
+.left-container,
+.left-container2 {
+  margin-top: 40px;
+}
+
+.left-container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .left--content {
+  margin-bottom: 25px;
+}
+
+.left-container2 .left--content {
+  width: 50%;
+}
+
+main .left--content div {
+  margin-left: 25px;
+}
+
+main .two-column__reverse .two-column__left {
+  max-width: 38%;
+}
+
+/*==================================  End of TWO COLUMN REVERSE  ==================================*/
+
+/*===================================================================================================
+============================                 TWO COLUMN                  ============================
+===================================================================================================*/
+
+main .two-column {
+  padding-top: 90px;
+  background: #09101B;
+}
+
+main .two-column .two-column__left {
+  padding-left: 0;
+  margin-left: 7%;
+  max-width: 42%;
+}
+
+main .two-column h2 {
+  max-width: 420px;
+}
+
+.two-column__left .left-container2 {
+  margin-top: 70px;
+}
+
+main .two-column .left--content {
+  margin-bottom: 40px;
+}
+
+main .two--column__right {
+  width: 645px;
+}
+
+main .left--content p {
+  margin: 0;
+}
+
+main .left--content img {
+  margin-top: 5px;
+}
+
+/*=====================================  End of TWO COLUMN  =======================================*/
+
+/*===================================================================================================
+============================            REPAIRS & MODIFICATION           ============================
+===================================================================================================*/
+
+.modification {
+  background: radial-gradient(176.75% 218.43% at -64.86% -138.33%, #095AA6 0%, #09101B 100%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: relative;
+  padding: 120px 25px 150px;
+}
+
+.modification::after {
+  content: '';
+  position: absolute;
+  background-image: url("precision images/Vector.svg");
+  height: 500px;
+  width: 450px;
+  top: 50px;
+  left: 0;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.repairs-modification {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1240px;
+}
+
+.repairs-modification span {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #70B6F9;
+  display: block;
+}
+
+.repairs-modification h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 13px;
+}
+
+.repairs_grid {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+.repair img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.repair h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.repair-type {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  margin: 20px 0;
+}
+
+.repairs_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.repair-type p {
+  margin: 0;
+  margin-left: 25px;
+  line-height: 30px;
+  opacity: 0.7;
+}
+
+.contact-buttons {
+  display: flex;
+  margin-top: 80px;
+}
+
+.button_blue2 {
+  display: flex;
+  align-items: center;
+  padding: 24px 70px 24px 65px;
+  font-size: 14px;
+  border: 2px solid #095AA6;
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: max-content;
+  margin-left: 15px;
+}
+
+.button_blue2 img {
+  margin-right: 10px;
+}
+
+
+/*================================  End of REPAIRS & MODIFICATION  =================================*/
+
+/*===================================================================================================
+============================                MEDIA QUERIES                ============================
+===================================================================================================*/
+
+@media(max-width: 1200px) {
+
+/*=============================================
+=                  HERO SMALL                 =
+=============================================*/
+
+main .heroSmall-content {
+  margin-left: 0;
+  max-width: none;
+}
+
+/*===========  End of HERO SMALL  ===========*/
+
+/*=============================================
+=              TWO COLUMN REVERSE             =
+=============================================*/
+
+main .two-column__reverse {
+  padding-top: 15%;
+  padding-bottom: 7%;
+}
+
+main .two-column__reverse .two--column__right {
+  width: 45%;
+  margin-right: 90px;
+}
+
+main .two-column__reverse .two-column__left {
+  max-width: 43%;
+  margin-right: 30px;
+}
+
+/*=======  End of TWO COLUMN REVERSE  =========*/
+
+/*=============================================
+=                  TWO COLUMN                 =
+=============================================*/
+
+main .two-column {
+  padding-top: 7%;
+  padding-bottom: 14%;
+}
+
+main .two--column__right {
+  width: 51%;
+}
+
+main .two-column .two-column__left {
+  margin-left: 5%;
+  max-width: 44%;
+}
+
+.left--content--container {
+  margin-top: 50px;
+}
+
+.left--content--container:nth-child(1) {
+  margin-top: 20px;
+}
+
+.two-column__left .left-container2 {
+  margin-top: 50px;
+}
+
+/*===========  End of TWO COLUMN  ===========*/
+
+}
+
+@media(max-width: 1024px) {
+
+  /*=============================================
+  =              TWO COLUMN REVERSE             =
+  =============================================*/
+
+  main .two-column__reverse {
+    padding-bottom: 5%;
+  }
+
+  main .two-column__reverse .two-column__left {
+    max-width: none;
+    width: auto;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 30px;
+    padding-left: 50px;
+  }
+
+  .left-container2 .left--content {
+    margin-right: 0;
+    width: 33%;
+  }
+
+  /*=======  End of TWO COLUMN REVERSE  =========*/
+
+  /*=============================================
+  =                  TWO COLUMN                 =
+  =============================================*/
+
+  main .two-column {
+    padding-top: 5%;
+  }
+
+  main .two--column__right {
+    width: 51%;
+  }
+
+  main .two-column h2 {
+    max-width: 100%;
+  }
+
+  main .two-column .two-column__left {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 30px 0 50px;
+    max-width: none;
+    width: auto;
+  }
+
+  main .two-column .left--content {
+    margin-right: 0;
+    width: 33%;
+  }
+
+  /*===========  End of TWO COLUMN  ===========*/
+
+  /*=============================================
+  =                MODIFICATIONS                =
+  =============================================*/
+  
+  .modification {
+    padding-top: 12%;
+    padding-bottom: 13%;
+  }
+
+  .repair-type {
+    width: 33%;
+  }
+  
+  /*=========  End of MODIFICATIONS  ==========*/
+
+}
+
+@media(max-width: 768px) {
+
+  /*=============================================
+  =                 HERO SMALL                  =
+  =============================================*/
+  
+  main .hero--section__small h1 {
+    margin: 20px 0;
+  }
+
+  main .hero--section__small p {
+    max-width: 500px;
+  }
+  
+  /*===========  End of HERO SMALL  ===========*/
+
+  /*=============================================
+  =              TWO COLUMN REVERSE             =
+  =============================================*/
+  
+  main .two-column__reverse .two--column__right {
+    margin-right: 0;
+    width: 60%;
+  }
+
+  .two-column__left .left-container2 {
+    margin-top: 40px;
+  }
+
+  .left-container2 .left--content {
+    width: 50%;
+  }
+
+  main .two--column__right {
+    width: 68%;
+  }
+
+  main .two-column__left {
+    margin-bottom: 30px;
+  }
+  
+  /*======  End of TWO COLUMN REVERSE  ========*/
+
+  /*=============================================
+  =                MODIFICATIONS                =
+  =============================================*/
+  
+  .repairs_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .repairs-modification h2 {
+    font-size: 35px;
+  }
+
+  .repair h3 {
+    font-size: 22px;
+  }
+
+  main .button__blue,
+  .button_blue2 {
+    padding: 22px 50px 22px 50px;
+  }
+  
+  /*=========  End of MODIFICATIONS  ==========*/
+
+}
+
+@media(max-width: 600px) {
+
+  .header .home {
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+
+  /*=============================================
+  =             TWO COLUMN REVERSE              =
+  =============================================*/
+
+  main .two-column__reverse .two--column__right {
+    margin-bottom: 40px;
+    width: 70%;
+  }
+  
+  main .two-column__reverse .two-column__left {
+    padding: 0 25px;
+  }
+
+  MAIN .left--content--container {
+    margin-top: 35px;
+  }
+  
+  /*=======  End of TWO COLUMN REVERSE  =======*/
+
+  /*=============================================
+  =                 TWO COLUMN                 =
+  =============================================*/
+  
+  main .two-column .two-column__left {
+    padding: 0 25px;
+  }
+
+  main .two-column__left h2 {
+    font-size: 30px;
+  }
+
+  main .two-column .left--content {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  main .two--column__right {
+    width: 80%;
+  }
+  
+  /*===========  End of TWO COLUMN  ===========*/
+
+  /*=============================================
+  =                MODIFICATION                 =
+  =============================================*/
+  
+  .repairs_grid {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+
+  .repairs-modification h2 {
+    font-size: 30px;
+  }
+
+  .repair h3 {
+    font-size: 20px;
+  }
+
+  .repair-type {
+    width: 50%;
+  }
+
+  .contact-buttons {
+    margin-top: 50px;
+  }
+  
+  /*==========  End of MODIFICATION  ===========*/
+
+}
+
+@media(max-width: 480px) {
+
+  .header .home {
+    margin-bottom: 0px;
+    margin-top: 22px;
+  }
+
+  /*=============================================
+  =              TWO COLUMN REVERSE             =
+  =============================================*/
+  
+  main .two-column__reverse .two--column__right {
+    width: 80%;
+  }
+
+  main .two-column__reverse .two-column__left h2 {
+    font-size: 26px;
+  }
+
+  .left-container, .left-container2,
+  main .left--content--container {
+    margin-top: 25px;
+  }
+
+  .two-column__left .left-container2 {
+    margin-top: 25px;
+  }
+
+  .left-container2 .left--content {
+    width: 100%;
+  }
+
+  main .left--content {
+    margin-bottom: 20px;
+  }
+
+  main .left--content div {
+    margin-left: 18px;
+  }
+  
+  /*=======  End of TWO COLUMN REVERSE  =======*/
+
+  /*=============================================
+  =                 TWO COLUMN                  =
+  =============================================*/
+  
+  main .two-column .left--content {
+    margin-bottom: 24px;
+  }
+
+  main .two-column__left h2 {
+    font-size: 26px;
+  }
+
+  .two-column .two-column__left .left-container2 {
+    margin-top: 45px;
+  }
+
+  main .two--column__right {
+    width: 85%;
+  }
+  
+  /*===========  End of TWO COLUMN  ===========*/
+
+  /*=============================================
+  =                MODIFICATION                 =
+  =============================================*/
+  
+  .repairs-modification span {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .repairs-modification h2 {
+    line-height: 40px;
+    margin-top: 0;
+  }
+
+  .repairs_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .repair-type {
+    width: 100%;
+    margin: 12px 0;
+  }
+
+  .contact-buttons {
+    flex-wrap: wrap;
+  }
+
+  main .button__blue {
+    margin-bottom: 25px;
+  }
+
+  main .button__blue, .button_blue2 {
+    margin-left: 0;
+  }
+  
+  /*=========  End of MODIFICATION  ===========*/
+
+}
+
+/*====================================  End of MEDIA QUERIES  =====================================*/

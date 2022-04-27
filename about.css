@@ -1,0 +1,566 @@
+.header .home {
+  margin: 18px 0 9.5px;
+}
+
+/*===================================================================================================
+===========================                 HERO SMALL                  =============================
+===================================================================================================*/
+
+main .hero--section__small {
+  background-image: linear-gradient(180deg,rgba(9, 16, 27, 0.3),rgba(9, 16, 27, 0.3)), url("about_images/Mask Group.jpg");
+}
+
+/*======================================  End of HERO SMALL  =======================================*/
+
+/*===================================================================================================
+===========================                  ABOUT US                   =============================
+===================================================================================================*/
+
+main .about-us {
+  padding-bottom: 8%;
+}
+
+main .about-us::after {
+  background-image: url(about_images/germany1.svg);
+  left: 0;
+  background-repeat: no-repeat;
+  width: 346px;
+  height: 559px;
+}
+
+/*=======================================  End of ABOUT US  ========================================*/
+
+/*===================================================================================================
+============================              TWO COLUMN REVERSE             ============================
+===================================================================================================*/
+
+main .two-column__reverse {
+  padding: 12.5% 0 11%;
+  background: radial-gradient(176.75% 218.43% at -64.86% -138.33%, #095AA6 0%, #09101B 100%);
+}
+
+main .two-column__reverse .two--column__right {
+  width: 600px;
+}
+
+main .two-column__reverse .two-column__left {
+  align-self: center;
+  padding-right: 30px;
+  padding-left: 8%;
+}
+
+main .two-column__reverse .two-column__left > span {
+  margin-bottom: 45px;
+}
+
+main .two-column__left > p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  opacity: 0.7;
+  margin-top: 30px;
+}
+
+/*==================================  End of TWO COLUMN REVERSE  ==================================*/
+
+/*===================================================================================================
+============================                   HISTORY                   ============================
+===================================================================================================*/
+
+.history {
+  position: relative;
+  background: #09101B;
+  padding: 0 0 7%;
+}
+
+main .history .two-column__reverse,
+main .history .two-column {
+  background: transparent;
+  padding: 0;
+  position: relative;
+}
+
+main .history .two-column .two--column__right {
+  width: 44.5%;
+  padding-left: 2.5%;
+  margin: 9% 0;
+  position: relative;
+}
+
+.history .two--column__right--image {
+  width: 85%;
+  position: relative;
+  z-index: 1;
+}
+
+main .history .two-column .two--column__right::before {
+  content: '';
+  position: absolute;
+  top: -4.2vw;
+  right: 0;
+  width: 30.2vw;
+  height: 30.2vw;
+  background: linear-gradient(350.59deg, #121F34 3.59%, #2C3B53 102.55%);
+  border-radius: 10px 0px 0px 10px;
+  z-index: 0;
+}
+
+main .history .two-column .two-column__left {
+  align-self: center;
+  margin: 0;
+  padding: 0 2.5%;
+  width: 42%;
+  max-width: none;
+}
+
+main .history .two-column .two-column__left  div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 420px;
+}
+
+main .history .two-column__reverse .two-column__left div {
+  max-width: 435px;
+  margin-left: 7%;
+  margin-right: 30px;
+}
+
+main .history .two-column__left p {
+  margin-top: 22px;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  line-height: 30px;
+}
+
+main .history .two-column:nth-child(1) p {
+  font-size: 24px;
+  opacity: 1;
+}
+
+main .history .two-column__reverse .two--column__right {
+  margin: 9% 0;
+  width: 100%;
+  max-width: 42%;
+  padding-right: 5%;
+  position: relative;
+}
+
+.history .two-column__reverse .two--column__right--image {
+  margin-left: 6.3vw;
+}
+
+main .history .two-column__reverse .two--column__right::before {
+  content: '';
+  position: absolute;
+  top: -3.9vw;
+  left: 0;
+  width: 30.2vw;
+  height: 28vw;
+  background: linear-gradient(350.59deg, #121F34 3.59%, #2C3B53 102.55%);
+  border-radius: 10px 0px 0px 10px;
+  z-index: 0;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+main .history .two-column__reverse .two-column__left {
+  width: 100%;
+  max-width: 47%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.history-index {
+  width: 6%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .two-column__reverse .history-index {
+  margin-left: 0;
+}
+
+.two-column:nth-child(3) .history-index {
+  justify-content: flex-start;
+} 
+
+.history-index-dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #095AA6;
+  top: 50%;
+  left: 48%;
+  z-index: 2;
+}
+
+.history-index-line {
+  height: 49.65%;
+  width: 1px;
+  background-color: #3A4049;
+  left: 48.78%;
+  z-index: 1;
+}
+
+/* .two-column:nth-child(1) .history-index-line {
+  top: 50%;
+}
+
+.two-column__reverse .history-index-line {
+  top: 0;
+  bottom: 0;
+  height: 99.8%;
+}
+
+/*=======================================  End of HISTORY  ========================================*/
+
+/*===================================================================================================
+============================                 MEDIA QUERY                 ============================
+===================================================================================================*/
+
+@media(max-width: 1024px) {
+
+  /*=============================================
+  =                   HISTORY                   =
+  =============================================*/
+  
+  main .history .two-column,
+  main .history .two-column__reverse {
+    display: flex;
+    flex-direction: row;
+  }
+
+  main .history .two-column .two-column__left {
+    width: 40%;
+  }
+
+  main .history .two-column .two--column__right {
+    width: 46.5%;
+    margin: 13% 0;
+  }
+
+  main .history .two-column:nth-child(1) p {
+    font-size: 20px;
+  }
+
+  main .history .two-column__reverse .two--column__right {
+    padding-right: 3%;
+    margin: 13% 0;
+  }
+
+  main .history .two-column__reverse .two-column__left {
+    max-width: 49%;
+  }
+
+  .history .two-column__left h2 {
+    margin: 10px 0;
+  }
+  
+  main .history .two-column__left p {
+    margin: 10px 0;
+  }
+
+  /*============  End of HISTORY  =============*/
+
+  /*=============================================
+  =              TWO COLUMN REVERSE             =
+  =============================================*/
+
+  main .two-column__reverse {
+    padding: 14% 0 10%;
+  }
+
+  main .two-column__reverse .two--column__right {
+    width: 55%;
+    margin-bottom: 60px;
+  }
+  
+  main .two-column__reverse .two-column__left {
+    padding: 0 30px;
+    margin: 0;
+    max-width: none;
+    width: auto;
+  }
+
+  main .two-column__reverse .two-column__left > span {
+    margin-bottom: 30px;
+  }
+  
+  main .two-column__reverse .two-column__left h2 {
+    margin-bottom: 10px;
+  }
+
+  /*=======  End of TWO COLUMN REVERSE  =======*/
+
+}
+
+@media(max-width: 768px) {
+
+  /*=============================================
+  =                   HISTORY                   =
+  =============================================*/
+  
+  main .history .two-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 100px;
+  }
+
+  main .history .two-column__reverse {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    padding-left: 100px;
+  }
+
+  main .history .two-column .two-column__left {
+    width: 92%;
+  }
+
+  main .history .two-column .two-column__left div {
+    width: 100%;
+    margin-left: 0;
+    max-width: none;
+  }
+
+  main .history .two-column .two--column__right {
+    width: 96%;
+    max-width: none;
+    padding: 0;
+    margin: 11% 0 20%;
+  }
+
+  .history-index {
+    position: absolute;
+    height: 120%;
+    top: 0;
+    left: 5%;
+  }
+
+  main .history .two-column__reverse .two--column__right {
+    width: 96%;
+    max-width: none;
+    padding: 0;
+    margin: 11% 0 20%;
+  }
+
+  main .history .two-column__reverse .two-column__left {
+    max-width: 100%;
+  }
+
+  main .history .two-column__reverse .two-column__left div {
+    max-width: 100%;
+  }
+
+  .history .two-column__reverse .two--column__right--image {
+    margin-left: 0;
+    margin-right: 6.3vw;
+  }
+
+  main .history .two-column .two--column__right::before { 
+    top: -6.2vw;
+    height: 52.2vw;
+    width: 48vw;
+  }
+
+  main .history .two-column__reverse .two--column__right::before { 
+    transform: none;
+    left: auto;
+    right: 0;
+    top: -6.2vw;
+    height: 52.2vw;
+    width: 48vw;
+  }
+
+  main .history .two-column:nth-child(1) p {
+    margin-top: 0;
+  }
+
+  main .history .two-column:nth-child(1) .history-index {
+    top: 5px;
+  }
+
+  main .history .two-column:nth-child(1) .history-index-line {
+    height: 100%;
+  }
+
+  main .history .two-column__reverse .history-index-line:nth-child(1) {
+    height: 0;
+  }
+
+  main .two-column__reverse .history-index {
+    padding-top: 25px;
+  }
+
+  main .history .two-column__reverse .history-index-line:nth-child(3) {
+    height: 100%;
+  }
+
+  .two-column:nth-child(3) .history-index {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    padding-top: 25px;
+  }
+
+  main .history .two-column:nth-child(3) .history-index-line {
+    height: 40%;
+    background-color: #09101B;
+  }
+  
+  /*============  End of HISTORY  =============*/
+
+  /*=============================================
+  =             TWO COLUMN REVERSE              =
+  =============================================*/
+  
+  main .two-column__reverse .two--column__right {
+    width: 60%;
+  }
+  
+  /*=======  End of TWO COLUMN REVERSE ========*/
+
+}
+
+@media(max-width: 600px) {
+
+  .header .home {
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+
+  /*=============================================
+  =             TWO COLUMN REVERSE              =
+  =============================================*/
+
+  main .two-column__reverse {
+    padding: 18% 0 12%;
+  }
+  
+  main .two-column__reverse .two--column__right {
+    width: 70%;
+  }
+
+  main .two-column__reverse .two-column__left > span {
+    font-size: 20px;
+  }
+  
+  /*=======  End of TWO COLUMN REVERSE ========*/
+
+  /*=============================================
+  =                   HISTORY                   =
+  =============================================*/
+
+  .history {
+    padding-top: 50px;
+  }
+  
+  main .history .two-column {
+    padding-left: 70px;
+  }
+
+  main .history .two-column .two-column__left {
+    width: 95%;;
+  }
+
+  main .history .two-column .two--column__right {
+    width: 97%;
+    margin-top: 13%;
+  }
+
+  main .history .two-column .two--column__right::before { 
+    top: -6.2vw;
+    height: 56.2vw;
+    width: 50vw;
+  }
+
+  .history .two--column__right--image {
+    width: 90%;
+  }
+  
+  main .history .two-column__reverse {
+    padding-left: 70px;
+  }
+
+  main .history .two-column__reverse .two-column__left div {
+    margin-left: 20px;
+  }
+
+  main .history .two-column__reverse .two--column__right {
+    margin-top: 13%;
+  }
+
+  .history .two-column__reverse .two--column__right--image {
+    width: 90%;
+  }
+
+  main .history .two-column__reverse .two--column__right::before { 
+    top: -6.2vw;
+    height: 56.2vw;
+    width: 50vw;
+  }
+
+  .history-index {
+    left: 3%;
+  }
+
+  /*============  End of HISTORY  =============*/
+
+}
+
+@media(max-width: 480px) {
+
+  .header .home {
+    margin-bottom: 0px;
+    margin-top: 22px;
+  }
+
+  /*=============================================
+  =                   HISTORY                   =
+  =============================================*/
+  
+  main .history .two-column {
+    padding-left: 12%;
+  }
+
+  main .history .two-column {
+    padding-left: 13%;
+  }
+  
+  .history-index {
+    left: 15px;
+  }
+
+  main .history .two-column__reverse {
+    padding-left: 13%;
+  }
+
+  main .two-column__reverse .history-index {
+    left: 15px;
+  }
+
+  /*============  End of HISTORY  =============*/
+
+  /*=============================================
+  =             TWO COLUMN REVERSE              =
+  =============================================*/
+  
+  main .two-column__reverse .two--column__right {
+    width: 85%;
+  }
+
+  main .two-column__reverse .two-column__left {
+    padding: 0 25px;
+  }
+  
+  main .two-column__reverse .two-column__left > span {
+    font-size: 16px;
+  }
+
+  /*=======  End of TWO COLUMN REVERSE ========*/
+
+}
+
+/*=====================================  End of MEDIA QUERY  ======================================*/

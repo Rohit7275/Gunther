@@ -1,0 +1,446 @@
+.header .home {
+  margin: 18px 0 9.5px;
+}
+
+/*=======================================================================================================
+==============================              HERO SECTION SMALL             ==============================
+=======================================================================================================*/
+
+main .hero--section__small {
+  background-image: url("boring_images/MaskGroup.jpg");
+}
+
+/*=====================================  End of HERO SECTION SMALL =====================================*/
+
+/*=========================================================================================================
+===============================                   ABOUT US                   ==============================
+=========================================================================================================*/
+
+main .about-us::after {
+  content: '1987';
+  background-image: none;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+  top: 20%;
+  width: auto;
+  height: auto;
+  left: 6%;
+  z-index: -1;
+  font-family: Montserrat;
+  font-size: 190px;
+  line-height: 36px;
+  color: white;
+  opacity: 0.07;
+  letter-spacing: 5px;
+}
+
+.about-us .boring-details {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 8%;
+}
+
+.details h2 {
+  font-size: 36px;
+  color: #70B6F9;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.details h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.details p {
+  line-height: 30px;
+  opacity: 0.7;
+}
+
+/*==========================================  End of ABOUT US  ===========================================*/
+
+/*=========================================================================================================
+===============================                   REPAIRS                   ===============================
+=========================================================================================================*/
+
+.repairs {
+  background: radial-gradient(176.75% 218.43% at -64.86% -138.33%, #095AA6 0%, #09101B 100%);
+  padding: 100px 0;
+}
+
+.repairs > div {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.repairs h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 0;
+}
+
+.repairs p {
+  font-size: 24px;
+  line-height: 36px;
+  max-width: 800px;
+  margin-top: 45px;
+}
+
+.repair-available {
+  margin-top: 80px;
+}
+
+.machine-repairs {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.machine-repairs h3 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0;
+  margin-right: 85px;
+  margin-bottom: -1px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.machine-repairs h3.active {
+  color: #70B6F9;
+  border-bottom: 1px solid #70B6F9;
+}
+
+.repairs-type {
+  padding: 50px 0 0;
+  opacity: 0;
+  visibility: hidden;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  transition: opacity 0.2s ease;
+}
+
+.repairs-type.show {
+  position: absolute;
+}
+
+.repairs-type.active {
+  opacity: 1;
+  position: static;
+  transition: opacity 0.2s ease 0.2s;
+  visibility: visible;
+}
+
+.repair {
+  display: flex;
+  align-items: center;
+}
+
+.repair img {
+  flex-shrink: 0;
+  margin-right: 25px;
+}
+
+.repair h4 {
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+  opacity: 0.7;
+}
+
+.drop-btn {
+  display: none;
+}
+
+/*==========================================  End of REPAIRS  ===========================================*/
+
+/*=========================================================================================================
+================================              MEDIA QUERY                   ===============================
+==========================================================================================================*/
+
+@media(max-width: 1024px) {
+
+  /*=============================================
+  =                   ABOUT US                  =
+  =============================================*/
+  
+  .about-us .boring-details {
+    grid-template-columns: auto auto;
+    grid-column-gap: 12%;
+    grid-row-gap: 12%;
+  }
+
+  main .about-us::after {
+    font-size: 100px;
+    top: 5%;
+    left: 4%;
+  }
+  
+  /*============  End of ABOUT US  =============*/
+
+  /*=============================================
+  =                   REPAIRS                  =
+  =============================================*/
+  
+  .machine-repairs h3 {
+    margin-right: 8%;
+  }
+  
+  /*============  End of REPAIRS  =============*/
+}
+
+  @media(max-width: 768px) {
+
+    /*=============================================
+    =                   ABOUT US                  =
+    =============================================*/
+    
+    main .about-us::after {
+      font-size: 65px;
+      top: 1%;
+    }
+
+    .about-us .boring-details {
+      grid-column-gap: 8%;
+      grid-row-gap: 8%;
+    }
+
+    main .about-us {
+      padding-top: 100px;
+    }
+    
+    /*============  End of ABOUT US  =============*/
+  
+    /*=============================================
+    =                   REPAIRS                  =
+    =============================================*/
+    
+    .machine-repairs {
+      justify-content: space-between;
+    }
+
+    .machine-repairs h3 {
+      margin-right: 5%;
+    }
+
+    .repairs {
+      padding: 70px 0;
+    }
+
+    .repairs-type {
+      grid-template-columns: auto auto;
+    }
+    
+    /*============  End of REPAIRS  =============*/
+}
+
+@media(max-width: 600px) {
+
+  .header .home {
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+
+  /*=============================================
+  =                   ABOUT US                  =
+  =============================================*/
+
+  main .about-us {
+    padding-top: 80px;
+  }
+  
+  main .about-us::after {
+    font-size: 55px;
+    top: 1%;
+    left: 20%;
+  }
+
+  .about-us .boring-details {
+    grid-column-gap: 5%;
+    grid-row-gap: 6%;
+    grid-template-columns: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .details h2 {
+    font-size: 32px;
+    margin: 18px 0;
+  }
+
+  .details h3 {
+    font-size: 22px;
+    margin: 18px 0;
+  }
+  
+  /*============  End of ABOUT US  =============*/
+
+  /*=============================================
+    =                   REPAIRS                  =
+    =============================================*/
+
+    .machine-repairs h3 {
+      margin-right: 0;
+    }
+
+    .repairs p {
+      font-size: 20px;
+    }
+
+    .repairs h2 {
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+    
+    /*============  End of REPAIRS  =============*/
+
+}
+
+@media(max-width: 480px) {
+
+  .header .home {
+    margin-bottom: 0px;
+    margin-top: 22px;
+  }
+
+  /*=============================================
+  =                   ABOUT US                  =
+  =============================================*/
+  
+  main .about-us::after {
+    font-size: 0;
+  }
+
+  main .about-us {
+    padding-bottom: 60px;
+  }
+
+  .details h2 {
+    font-size: 30px;
+    margin: 15px 0;
+  }
+
+  .details h3 {
+    font-size: 20px;
+    margin: 15px 0;
+  }
+
+  .about-us .boring-details {
+    grid-row-gap: 2%;
+  }
+
+  .about-us .boring-details {
+    margin-bottom: 25px;
+  }
+  
+  /*============  End of ABOUT US  =============*/
+
+  /*=============================================
+    =                   REPAIRS                  =
+    =============================================*/
+
+    .repairs {
+      padding: 70px 0 50px;
+    }
+
+    .repairs-type {
+      grid-template-columns: auto;
+      padding-top: 40px;
+    }
+
+    .repairs p {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    .repairs h2 {
+      font-size: 35px;
+      margin-bottom: 25px;
+    }
+
+    .repair-available {
+      margin-top: 55px;
+    }
+
+    .drop-btn {
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      /* border: 1px solid rgba(255, 255, 255, 0.7); */
+      border-radius: 50px;
+      position: relative;
+      z-index: 10;
+      cursor: pointer;
+      background: rgba(9, 90, 166, 0.5);
+    }
+
+    .drop-btn h3{
+      margin-left: 35px;
+      font-weight: 400;
+    }
+
+    .drop-btn img {
+      height: 16px;
+      width: 16px;
+      padding: 11px 10px 9px;
+      /* border: 1px solid #70B6F9; */
+      /* border-radius: 50%; */
+      /* background-color: #70B6F9; */
+      margin-left: auto;
+      margin-right: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .drop-btn.active img {
+      transform: rotate(180deg);
+    }
+
+    .repairs-drop {
+      position: relative;
+      max-width: 350px;
+      margin: 0 auto;
+    }
+
+    .machine-repairs {
+      border-bottom: none;
+      flex-direction: column;
+      position: absolute;
+      background: #09101B;
+      z-index: 5;
+      padding-top: 50px;
+      top: 45px;
+      width: 100%;
+      transition: all 0.4s ease;
+      transform: scaleY(0);
+      opacity: 0;
+      transform-origin: top center;
+    }
+
+    .machine-repairs.active {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+
+    .machine-repairs h3 {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    /*============  End of REPAIRS  =============*/
+
+}
+
+
+
+/*========================================  End of MEDIA QUERY  =========================================*/
